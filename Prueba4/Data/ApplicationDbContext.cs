@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Prueba4.Models;
 
 namespace Prueba4.Data
 {
@@ -12,5 +13,6 @@ namespace Prueba4.Data
             : base(options)
         {
         }
+        public DbSet<Prueba4.Models.Producto> Producto { get; set; }
     }
 }
