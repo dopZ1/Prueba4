@@ -25,7 +25,7 @@ namespace Prueba4.Controllers
             return View(await _context.Producto.ToListAsync());
         }
 
-        public async Task<IActionResult> Productos()
+        public async Task<IActionResult> Listado()
         {
             return View(await _context.Producto.ToListAsync());
         }
