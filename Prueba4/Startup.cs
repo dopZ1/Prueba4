@@ -10,10 +10,6 @@ using Microsoft.Extensions.Hosting;
 using Prueba4.Data;
 using Prueba4.Models;
 using Prueba4.Models.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Prueba4
 {
@@ -71,6 +67,8 @@ namespace Prueba4
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
-        }
+
+
+        }            
     }
 }
